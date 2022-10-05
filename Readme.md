@@ -1,9 +1,12 @@
+
+
+
 <h2>Create image</h2>
 
 `podman build -t yourTag .`
 
 
-<h2>Run</2>
+<h2>Run</h2>
 
 `podman  run --net host  -d -p 9050:9050 --name tor tor`
 
